@@ -43,9 +43,9 @@ public class DocenteFactura extends Docente{
         String x = String.format("Nombre del docente: %s\n"
                 + "Numero de cedula: %s\n"
                 + "Valor de la factura: %.2f\n"
-                + "valor del iva: 12\n"
+                + "valor del iva: 12%s \n"
                 + "valor a cancelar: %.2f", obtenerNombred(),
-                obtenerCedula(),obtenerValorfac(),obtenerValorcan());
+                obtenerCedula(),obtenerValorfac(),"%",obtenerValorcan());
         return x;
     }
     
